@@ -17,7 +17,7 @@ export default function loadMenu() {
                 <h1>Snapper fish</h1>
                 <p>"Give me the snapper bozo" - Mac
                     "Snapper fish for the man!" - Charlie
-                </p>class="dish"
+                </p>
             </div>
         </div>
         <div class="dish">
@@ -61,7 +61,7 @@ export default function loadMenu() {
             <img class="pic" src="../src/pics/tap.webp" alt="">
             <div class="drink-info">
                 <h1>Tap Water</h1>
-                <p>Just the tap water then - Dee</p>
+                <p>"Just the tap water then" - Dee</p>
             </div>
         </div>
         <div class="beverage">
