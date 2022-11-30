@@ -83,7 +83,7 @@ li {
     border-radius: 50%;
 }
 
-.menu {
+.main > .menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,9 +128,27 @@ li {
     padding: 5px;
 }
 
+.main > .contact {
+    max-width: 600px;
+    height: 550px;
+    margin: 0px auto;
+}
 
+.phone, .address {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
 
+.phone p, .address p {
+    padding: 15px;
+}
 
+.contact > img {
+    max-width: 600px;
+    padding: 10px;
+}
 
 .footer {
     display: flex;
