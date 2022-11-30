@@ -111,6 +111,10 @@ li {
     align-items: center;
 }
 
+.dish:hover, .beverage:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 .pic {
     max-width: 150px;
     height: 150px;
