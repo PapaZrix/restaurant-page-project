@@ -12,7 +12,7 @@ export default function loadMenu() {
     </div>
     <div class="food">
         <div class="dish">
-            <img class="pic" src="../src/pics/snapper.jpg" alt="">
+            <img class="pic" src="pics/snapper.jpg" alt="">
             <div class="dish-info">
                 <h1>Snapper fish</h1>
                 <p>"Give me the snapper bozo" - Mac
@@ -21,21 +21,21 @@ export default function loadMenu() {
             </div>
         </div>
         <div class="dish">
-            <img class="pic" src="../src/pics/spaghetti.jpg" alt="">
+            <img class="pic" src="pics/spaghetti.jpg" alt="">
             <div class="dish-info">
                 <h1>Bowl of Spaghetti</h1>
                 <p>"I'll have a piping hot bowl of spaghetti, nice and sloppy" - Dennis</p>
             </div>
         </div>
         <div class="dish">
-            <img class="pic" class="steak" src="../src/pics/milk-steak.jpg" alt="">
+            <img class="pic" class="steak" src="pics/milk-steak.jpg" alt="">
             <div class="dish-info">
                 <h1>Milk Steak</h1>
                 <p>"I'm gonna want the milk steak boiled over hard" - Charlie</p>
             </div>
         </div>
         <div class="dish">
-            <img class="pic" src="../src/pics/calamari.jpg" alt="">
+            <img class="pic" src="pics/calamari.jpg" alt="">
             <div class="dish-info">
                 <h1>Calamari</h1>
                 <p>Our newest addition to the menu, pristine grilled calamari</p>
@@ -44,28 +44,28 @@ export default function loadMenu() {
     </div>
     <div class="drinks">
         <div class="beverage">
-            <img class="pic" src="../src/pics/white-wine.png" alt="">
+            <img class="pic" src="pics/white-wine.png" alt="">
             <div class="drink-info">
                 <h1>Bottle of White Wine</h1>
                 <p>Our most expensive bottle</p>
             </div>
         </div>
         <div class="beverage">
-            <img class="pic" src="../src/pics/glass.jpg" alt="">
+            <img class="pic" src="pics/glass.jpg" alt="">
             <div class="drink-info">
                 <h1>One Glass of Wine</h1>
                 <p>A glass of our house red</p>
             </div>
         </div>
         <div class="beverage">
-            <img class="pic" src="../src/pics/tap.webp" alt="">
+            <img class="pic" src="pics/tap.webp" alt="">
             <div class="drink-info">
                 <h1>Tap Water</h1>
                 <p>"Just the tap water then" - Dee</p>
             </div>
         </div>
         <div class="beverage">
-            <img class="pic" src="../src/pics/black-wine.jpg" alt="">
+            <img class="pic" src="pics/black-wine.jpg" alt="">
             <div class="drink-info">
                 <h1>Bottle of Black Wine</h1>
                 <p>*Never before seen in the show*</p>

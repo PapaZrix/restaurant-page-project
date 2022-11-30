@@ -18,6 +18,6 @@ export default function loadContactPage() {
         </span>
         <p class="address">1111 South Broadway, Los Angeles, USA</p>
     </div>
-    <img src="../src/pics/map.png" alt="">
+    <img src="pics/map.png" alt="">
     `
 }
