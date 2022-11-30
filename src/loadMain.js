@@ -1,5 +1,7 @@
-export default function loadHome() {
-    const main = document.querySelector(".main");
+export default function loadMain() {
+    const main = document.createElement("div");
+    main.classList.add("main");
+    content.appendChild(main);
     main.innerHTML = "";
 
     const home = document.createElement("div");

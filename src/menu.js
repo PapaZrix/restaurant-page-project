@@ -1,7 +1,5 @@
 export default function loadMenu() {
-    const main = document.createElement("div");
-    main.classList.add("main");
-    content.appendChild(main);
+    const main = document.querySelector(".main");
     main.innerHTML = "";
 
     const menu = document.createElement("div");

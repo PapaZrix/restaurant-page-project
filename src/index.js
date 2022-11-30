@@ -1,3 +1,4 @@
+import loadMain from "./loadMain";
 import loadHome from "./home";
 import loadMenu from "./menu";
 import loadContactPage from "./contact";
@@ -20,7 +21,7 @@ const content = document.getElementById("content");
     </div>`
 })();
 
-loadContactPage();
+loadMain();
 
 (function loadFooter() {
     const footer = document.createElement("div");
@@ -29,3 +30,20 @@ loadContactPage();
 
     return footer.innerHTML = `<p>Fresh Fish Served Daily</p>`;
 })();
+
+const tabs = document.querySelectorAll("li");
+tabs.forEach((tab) => {
+    tab.addEventListener("click", (e) => {
+        if (e.target.classList.contains("home")) {
+            loadHome();
+        }
+
+        if (e.target.classList.contains("menu")) {
+            loadMenu();
+        }
+
+        if (e.target.classList.contains("contact")) {
+            loadContactPage();
+        }
+    })
+})
