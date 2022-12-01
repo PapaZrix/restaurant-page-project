@@ -16,6 +16,10 @@ body {
 
 .content {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header {
@@ -64,7 +68,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 600px;
+    width: 600px;
     height: 550px;
     margin: 0px auto;
     text-align: center;
@@ -102,7 +106,7 @@ li {
 }
 
 .dish, .beverage {
-    width: 300px;
+    width: 270px;
     height: 300px;
     background-color: black;
     display: flex;
@@ -133,20 +137,21 @@ li {
 }
 
 .main > .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     max-width: 600px;
     height: 550px;
     margin: 0px auto;
 }
 
 .phone, .address {
-    text-align: left;
+    width: 100%;
+    padding: 10px;
     display: flex;
     align-items: center;
-    font-size: 20px;
-}
-
-.phone p, .address p {
-    padding: 15px;
+    gap: 10px;
 }
 
 .contact > img {
@@ -165,6 +170,8 @@ li {
     font-size: 25px;
 }
 
+/* Animations */
+
 .main, .main > .home, .main > .menu, .main > .contact {
     animation: fadeIn 2s;
 }
@@ -172,4 +179,31 @@ li {
 @keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+/* Media queries */
+
+@media (max-width:700px) {
+    .main > .home, .main > .contact {
+        height: 100%;
+        width: 100%;
+    }
+
+    .menu > .food, .menu > .drinks {
+        grid-template-columns: 1fr;
+    }
+
+    .dish > img, .beverage > img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 60%;
+    }
+
+    .home > img, .contact > img {
+        width: 80%;
+    }
 }
